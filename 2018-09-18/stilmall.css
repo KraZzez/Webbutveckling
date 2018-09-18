@@ -1,0 +1,22 @@
+/*inline- och blockelement */
+/* h1 är ett blockelement, har bredd o höjd */
+
+body {
+background-color: black;
+/*Kolla 4.8.3 -4.8.5, sid 89 för att justera texten */
+}
+p {
+color: green;
+font-size: 30px;
+}
+h1 {
+text-align: center;
+color: blue;
+font-size: 50px;
+}
+.gul {
+  background-color: yellow;
+}
+#unikt {
+  color: blue;
+}
