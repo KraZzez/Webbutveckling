@@ -1,0 +1,27 @@
+
+.vanster {
+background-color: black;
+display:flex;
+flex-direction:column;
+flex-basis: 100px;
+}
+.hoger {
+  background-color: black;
+display:flex;
+flex-direction:column;
+flex-basis: 100px;
+}
+.container {
+max-width: 1000px;
+margin:auto;
+display:flex;
+flex-display:row;
+justify-content: center; /* default: flex-start (vänster) */
+background-color: yellow;
+}
+.center {
+  background-color: red;
+  padding:10px;
+  flex-shrink: 2;
+  text-align: center;
+}
