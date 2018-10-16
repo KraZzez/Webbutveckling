@@ -1,0 +1,15 @@
+
+.center {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  max-width: 800px;
+  margin:auto;
+}
+.container {
+  background-color: blue;
+  margin:auto;
+  max-width: 800px;
+  height: 1000px;
+padding: 10px;
+}
