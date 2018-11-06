@@ -1,0 +1,29 @@
+.container{
+  margin:auto;
+}
+
+.content{
+display:flex;
+ }
+
+.links{
+  display:flex;
+  flex-direction:column;
+background-color: grey;
+padding: 10px;
+white-space: nowrap;
+}
+
+.vanster{
+  background-color: limegreen;
+  padding: 10px;
+  flex-basis: 25%;
+}
+
+.hoger {
+  background-color: red;
+}
+header, footer {
+  display:flex;
+  justify-content: center;
+}
