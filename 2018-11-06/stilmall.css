@@ -1,15 +1,19 @@
-.container{
-  margin:auto;
+body {
+	/* Innehållet i body går enda ut i kanten */
+	margin: 0;
 }
 
+
 .content{
+  margin:auto;
 display:flex;
+flex-direction: row;
  }
 
 .links{
   display:flex;
   flex-direction:column;
-background-color: grey;
+background-color: brown;
 padding: 10px;
 white-space: nowrap;
 }
@@ -17,7 +21,7 @@ white-space: nowrap;
 .vanster{
   background-color: limegreen;
   padding: 10px;
-  flex-basis: 25%;
+
 }
 
 .hoger {
@@ -27,3 +31,9 @@ header, footer {
   display:flex;
   justify-content: center;
 }
+@media only screen and (max-width: 800px) {
+
+	.content {
+
+		flex-direction: column;
+	}
