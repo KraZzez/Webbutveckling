@@ -12,6 +12,10 @@ body {
 }
 }
 
+.left {
+  background: purple;
+  width: 100px;
+}
 .links {
   display: flex;
   flex-direction: column;
