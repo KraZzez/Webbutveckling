@@ -1,7 +1,7 @@
 <html lang="sv">
    <head>
       <meta charset="utf-8">
-      <link href="Support.css" rel="stylesheet" type="text/css">
+      <link href="Ansökan.css" rel="stylesheet" type="text/css">
 
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <title>Free Grades</title>
@@ -40,19 +40,21 @@
 
 
     <div class="kontakt">
+      <form>
+  			<input type="text" id="username" placeholder="Choose Username">
+  			<input type="password" id="password" placeholer="Choose Password">
+  			<button type="button" onclick="getInfo()">Click Me</button>
+  		</form>
+      <script src="js/main.js"></script>
+
+      <link rel="shortcut icon" href="favicon.ico"> a fakbfkafbkjba
+
+
+
+
       <form action="action_page.php">
-
-        <label for="fname">Förnamn:</label>
-        <input type="text" id="fname" name="firstname" placeholder="Tony?..">
-
-        <label for="lname">Efternamn:</label>
-        <input type="text" id="lname" name="lastname" placeholder="Irving?..">
-
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="mailen" placeholder="Mail för fan..">
-
-        <label for="uppgiften">Vad undrar du?</label>
-        <textarea id="uppgiften" name="uppgiften" placeholder="Skriv någonting.." style="height:200px"></textarea>
+        <label for="uppgiften">Beskriv det du vill ha hjälp med detaljerat!</label>
+        <textarea id="uppgiften" name="uppgiften" placeholder="Detaljerat.." style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
 
