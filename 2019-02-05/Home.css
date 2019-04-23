@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: url('2019-02-05/fonts') format('ttf'),
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
 body {
 padding:0;
 margin:0;
