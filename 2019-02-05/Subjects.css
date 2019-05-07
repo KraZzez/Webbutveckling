@@ -1,8 +1,16 @@
 
 @font-face {
-    font-family: 'pacificoregular';
-    src: url('2019-02-05/fonts/pacifico-regular-webfont.woff2') format('woff2'),
-         url('2019-02-05/fonts/pacifico-regular-webfont.woff') format('woff');
+    font-family: 'pacificoregular'; /*
+    src: url('/2019-02-05/fonts/pacifico-regular-webfont.woff2')
+    format('woff2'),
+         url('/2019-02-05/fonts/pacifico-regular-webfont.woff')
+         format('woff');
+         */
+
+         src: url('fonts/pacifico-regular-webfont.woff2')
+         format('woff2'),
+              url('fonts/pacifico-regular-webfont.woff')
+              format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -135,7 +143,7 @@ border-radius: 50%;
 background: #000;
 color: #fff;
 font-size: 26px;
-font-family: 'pacificoregular','Linux Biolinum Keyboard O',cursive;
+font-family: 'pacificoregular',cursive;
 
 z-index: 3;
 }
