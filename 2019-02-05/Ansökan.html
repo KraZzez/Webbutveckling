@@ -3,6 +3,12 @@
       <meta charset="utf-8">
       <link href="Ansökan.css" rel="stylesheet" type="text/css">
 
+<script>
+function myFunction() {
+  alert('Tack för att du använder min hemsida!');
+}
+</script>
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
       <title>Free Grades</title>
    </head>
@@ -68,9 +74,10 @@
         <label for="uppgiften">Beskriv det du vill ha hjälp med detaljerat!</label>
         <textarea id="uppgiften" name="uppgiften" placeholder="Detaljerat.." style="height:200px"></textarea>
 
-        <input type="submit" value="Submit">
+
 
       </form>
+        <button onclick="setTimeout(myFunction, 3000);">Submit</button>
     </div>
 
 

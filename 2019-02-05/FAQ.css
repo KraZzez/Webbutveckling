@@ -130,3 +130,9 @@ color:white;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.middle .info table, th, td{
+  margin-top:15%;
+  border: 1px solid black;
+  text-align: center;
+}
