@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'pacificoregular'; /*
     src: url('/2019-02-05/fonts/pacifico-regular-webfont.woff2')
@@ -26,7 +25,7 @@ overflow: hidden;
 }
 
 body::after {
-  background-image: url("http://papers.co/wallpaper/papers.co-vs84-triangle-art-abstract-blue-dark-pattern-26-wallpaper.jpg");
+  background-image: url("background.jpg");
   content: "";
   opacity: 0.5;
   position: absolute;

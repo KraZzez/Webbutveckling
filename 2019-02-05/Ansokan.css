@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'pacificoregular'; /*
+    src: url('/2019-02-05/fonts/pacifico-regular-webfont.woff2')
+    format('woff2'),
+         url('/2019-02-05/fonts/pacifico-regular-webfont.woff')
+         format('woff');
+         */
+
+         src: url('fonts/pacifico-regular-webfont.woff2')
+         format('woff2'),
+              url('fonts/pacifico-regular-webfont.woff')
+              format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 padding:0;
 margin:0;
@@ -7,7 +24,7 @@ overflow: hidden;
 }
 
 body::after {
-  background-image: url("http://papers.co/wallpaper/papers.co-vs84-triangle-art-abstract-blue-dark-pattern-26-wallpaper.jpg");
+  background-image: url("background.jpg");
   content: "";
   opacity: 0.5;
   position: absolute;
