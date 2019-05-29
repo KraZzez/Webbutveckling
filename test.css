@@ -1,0 +1,112 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#1E2144
+}
+
+.logga {
+	width:100px;
+	height:100px;
+	background-image: url(transparant.png);
+	background-size: 100%;
+	margin:0 auto;
+}
+
+nav {
+	width:100%;
+	height:100px;
+}
+
+ul {
+text-align: center;
+}
+
+ul li {
+	list-style: none;
+	display:inline-block;
+
+}
+
+ul li a {
+text-decoration: none;
+font-size: 16px;
+font-family: Comic Sans MS;
+color:#EFFB02;
+padding: 0 5px;
+}
+
+.ros {
+	width:100%;
+	height:400px;
+	background-image: url(Ros.jpg);
+	background-size: 100%;
+	position:absolute;
+	bottom:0;
+}
+
+.Betyg {
+	color:#EFFB02;
+	margin:0 auto;
+}
+
+.Test .Betyg h1 {
+	margin:0 auto;
+
+}
+
+.Text {
+text-align: center;
+margin-top: 4%;
+}
+
+.Text h1 {
+	font-family: Impact;
+}
+
+@media only screen and (max-width: 767px) {
+.logga {
+	width:100px;
+	height:100px;
+	background-image: url(transparant.png);
+	background-size: 100%;
+	margin:0 auto;
+	display:none;
+}
+nav {
+	width:100%;
+	height:100px;
+	padding-top:40px;
+}
+
+}
+
+@media only screen and (max-height: 600px) {
+	.ros {
+	width:100%;
+	height:400px;
+	background-image: url(Ros.jpg);
+	background-size: 100%;
+	position:absolute;
+	bottom:0;
+	margin-bottom:-60px;
+}
+.Text {
+text-align: center;
+margin:0;
+}
+
+	}
+
+@media only screen and (min-width: 768px) {
+.ros {
+	width:100%;
+	height:400px;
+	background-image: url(Ros.jpg);
+	background-size: 100%;
+	position:absolute;
+	bottom:0;
+}
+}
